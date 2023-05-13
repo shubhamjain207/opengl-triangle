@@ -1,0 +1,14 @@
+﻿  Source.cpp
+Source.obj : error LNK2019: unresolved external symbol __imp_glewInit referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwInit referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwWindowHint referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwGetFramebufferSize referenced in function main
+Source.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function main
+Source.obj : error LNK2019: unresolved external symbol __imp_glewExperimental referenced in function main
+D:\SFML\opengl1\linking\glew\lib\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML\opengl1\linking\glfw\lib\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML\opengl1\linking\soil2\lib\soil2-debug.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+D:\SFML\opengl1\x64\Debug\opengl1.exe : fatal error LNK1120: 9 unresolved externals
